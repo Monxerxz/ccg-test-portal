@@ -1,0 +1,279 @@
+ /*
+|| General CSS for WET - For branding of DFO / CCG
+||
+|| v.1.0.0 - 2012-10-18 Nancy Babineau (ADM5 - WET)
+*/
+
+table.widthp-100 { width: 100%; } /* Use for full width table when printing on paper [2015-04-29 - N.Babineau]*/
+
+/* 
+h2.background {
+	background-color:#1a3d6c !important;color:#fff;
+	border-bottom:none;margin:0;padding:5px;
+	font-size:100%;
+	background: #1a3d6c url(/folios/00101/images/hub-custom-bg-heading.gif) 0 top repeat-x !important;
+	line-height:1.28em;margin-top:0;font-weight:700;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;
+} 
+*/
+fieldset {
+    border-radius: 10px;
+    border:1px solid #C0C0C0;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+legend {
+    position: absolute;
+    top: -2px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+fieldset.no-border {
+    border-style: none;
+}
+div.margin-zero
+{
+	margin:0px;
+} 
+
+.data-insert {display: inline-block; border-bottom: 1px solid black; } 
+
+.background-green {	background:#418541; text-align:center; }
+.background-red { background:#d73d38; text-align:center; }
+.background-yellow { background:#ffe75d; text-align:center; }
+.line-through { text-decoration: line-through; }
+.color-orange { color: #cc6600; }
+
+
+/* CLF2 STYLES
+need to verify if we want to keep this. Currently used in some ADM5 forms 
+*/
+.general-label220 {
+	width: 220px;
+	float: left;
+	text-align: right;
+	font-weight: bold;
+}
+
+div.val-ok					{ margin: 2px 10px; border: 1px solid #040; background-color: #deb; }
+p.val-ok-title			{ margin: 2px; color: #040; font-size: 8pt; font-weight: bold; }
+p.val-ok, span.val-ok					{ margin: 2px; color: #040; font-size: 7.5pt; }
+input.val-ok, select.val-ok		{ background-color: #deb; }
+
+div.val-error				{ margin: 2px 10px; border: 1px solid #900; background-color: #edb; }
+p.val-error-title		{ margin: 2px; color: #900; font-size: 8pt; font-weight: bold; }
+p.val-error, span.val-error		{ margin: 2px; color: #900; font-size: 7.5pt; }
+input.val-error, select.val-error, textarea.val-error		{ background-color: #edb; }
+
+div.val-warning			{ margin: 2px 10px; border: 1px solid #d70; background-color: #edb; }
+p.val-warning-title	{ margin: 2px; color: #d70; font-size: 8pt; font-weight: bold; }
+p.val-warning				{ margin: 2px; color: #d70; font-size: 7.5pt; }
+input.val-warning, select.val-warning, textarea.val-warning	  { background-color: #fff; }
+
+/* END of CLF2 STYLES to revise */
+
+/*
+img
+  { border: 0px; }
+form.qsearch
+  { padding: 0; margin: 0; } 	
+.alignMiddle
+	{ vertical-align: middle; }
+
+.inst
+  {	font-style: italic;	color: #666; }
+.not-found
+  {	font-style: italic;	color: #666; }
+.not-found-small
+  {	font-style: italic;	font-size: 75%; color: #666; padding: 5px; }
+.reference
+  { text-align : justify;	margin-left : 40px; text-indent : -40px; }
+.debug
+  { border: 2px solid #ff0000; padding: 2px; }
+.bold
+  { font-weight: bold; }
+.margin-none
+	{ margin: 0px; }
+.padding-none
+	{ padding: 0px; }
+.highlight
+	{ background-color: #88c5e1; }
+.cursor-hand
+  { cursor: pointer; }
+.underline
+	{ text-decoration: underline; }
+
+ul.arrow-blue {
+	list-style-type: none;
+}
+ul.arrow-blue li {
+	background-image: url("/images/li-blue.gif");
+	background-repeat: no-repeat;
+	background-position: 0 .4em;
+	padding-left: .6em;
+}
+
+br.clearBoth {
+	clear:both;
+	}
+
+td.nowrap
+  { white-space: nowrap; }
+
+div.app-view
+  { border: 1px solid gray; padding: 4px; }
+
+div.col-left
+	{
+		width: 285px;
+		margin: 0px 10px 0px 0px;
+		float: left;
+	}
+div.col-right
+	{
+		width: 285px;
+		float: left;
+		margin: 0px;
+	}
+*/
+
+/* Style for side-menu login form */
+/*div.nav-login
+	{ background-color: white; padding: 5px 10px; margin: 0px 0px 5px 0px; border: 1px dotted gray; }
+div.login-form form
+  { margin-top: 0px; margin-bottom: 0px; font-size: 75%; }
+div.login-form div.visitor-error
+  { border: 1px solid #900; background-color: #edb; }
+div.login-form p.visitor-error
+  { margin: 2px; color: #900; font-size: 7.5pt; }
+div.login-form div.visitor-warning
+  { border: 1px solid #d70; background-color: #edb; }
+div.login-form p.visitor-warning
+  { margin: 2px; color: #d70; font-size: 7.5pt; }
+div.login-form img
+  { padding-left: 0px; padding-right: 3px; }
+*/
+
+/* Styles for Help bubbles */
+/*
+div.help-bubble-right
+	{
+		display: none;
+		position:absolute;
+		top: 20px; right: 40px;
+		width: 200px;
+		background-color: white;
+		border: 1px solid gray;
+		color: gray;
+		padding: 2px;
+		z-index:99;
+	}
+div.help-bubble-content
+	{
+		padding: 10px;
+	}
+
+*/
+/* Styles for Help Box #2 */
+
+/*
+.helpbox2-header
+	{
+		border: 1px solid #5f5f53;
+		background-color: #5f5f53;
+		color: white;
+		font-size: 11px;
+		font-family: arial;
+		font-weight: bold;
+		padding: 0px 3px 0px 3px;
+        filter:alpha(opacity=95);
+		width: 300px;
+	}
+
+.helpbox2-body
+	{
+		border: 1px solid #5f5f53;
+		background-color: #ebebe9;
+		color: black;
+		font-size: 11px;
+		font-family: arial;
+		padding: 0px 3px 0px 3px;
+        filter:alpha(opacity=95);
+		width: 300px;
+	}
+*/	
+/*Styles for Progress Bar*/
+/*
+.outer-progress
+	{
+		background-color: #F5F5F5;
+		border: 1px solid #876;
+		padding: 0px;
+		overflow: hidden;
+	}
+.inner-progress
+	{
+		background-color: #D3D3D3;
+		border: 1px solid gray;
+		border-top: 0px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-right: 1px;
+		padding: 0px;		
+	}
+*/
+/* Media */
+/*
+@media print {
+	body { background-color: white; }
+	h2   { background-color: white; color: black; }
+	div.colLayout-bg-3cols  { background-image: none; }
+	div.colLayout-bg-2cols  { background-image: none; }
+	.print-hide { display: none; }
+	ul.arrow-blue { list-style: disc; }
+*/
+  /* Added to correct disapearing text while printing
+  Seems to be caused by float: none; in pf-if.css
+  N.Babineau 2008-09-02 */
+/*  div.center, * html div.center {
+    position: relative;
+	}
+}
+*/
+/*
+div.user-fp, div.user-fpml {
+	background-color: #71604f;
+	margin-top:1px; font-style:italic;
+}
+li.user-fip {
+	background-color: #71604f;
+}
+li.user-fip a {
+	background-color: #71604f;
+}
+li.user-fip-disabled {
+	color: #ccc;
+font-style: normal;
+	background-color: #71604f;
+}
+*/
+/* Archive Notice */
+/*
+#archived {
+	border: 1px solid #C00;
+	background-color: #FFC;
+	border-image: initial;
+}
+
+#archived h2 {
+	background-color: #C00;
+	color: white;
+	margin: 0;
+	padding: 2px 0 2px 10px;
+}
+
+#archived p {
+	margin: 10px 10px 10px 10px;
+}
+
+*/
